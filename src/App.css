@@ -1,0 +1,184 @@
+body{
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.page{
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.page1 {
+  background-image: url(./img/background1.png);
+  background-size: 100vw;
+}
+
+.page2 {
+  background-image: url(./img/background2.png);
+  background-size: 100vw;
+}
+
+.page3 {
+  display: inline-flex;
+  background-image: url(./img/background3.png);
+  background-size: 100vw;
+}
+
+.range {
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.slider {
+  outline: none;
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  margin-top: 90vh;
+  margin-left: 19vw;
+  align-items: center;
+  -webkit-appearance: none;
+  height: 20px;
+  width: 61vw;
+  padding: 0;
+  border: 0;
+  background-color: #f5000000;
+}
+.slider::-webkit-slider-runnable-track {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 10px;
+  background-color: #ffffff;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 50px;
+  height: 65px;
+  background-image: url(./img/slider.png);
+  background-size: 50px;
+  background-repeat:no-repeat;
+}
+
+img {
+  position: absolute;
+}
+
+.img1 {
+  display: flex;
+  top: 86vh;
+  height: 10vw;
+}
+
+.img2 {
+  display: flex;
+  top: 89vh;
+  margin-left: 25%;
+  height: 7vw;
+}
+
+.ice1 {
+  z-index: 200;
+  margin-left: 78vw;
+  top:-300vh;
+}
+
+.ice2 {
+  z-index: 200;
+  top: -249vh;
+  left: 21vw;
+  height: 12vh;
+}
+
+.ice3 {
+  z-index: 200;
+  top: -279vh;
+  left: 9vw;
+  height: 4vh;
+}
+
+.ice4 {
+  top: -227vh;
+  left: 75vw;
+  height: 8vh;
+}
+
+.ice5 {
+  top: 24vh;
+  left: 60vw;
+  height: 4%;
+}
+
+.ice6 {
+  top: 9VH;
+  left: 87vw;
+  height: 2%;
+}
+
+.ice7 {
+  top: 74vh;
+  left: 3vw;
+  height: 8%;
+}
+
+.ice8 {
+  top: 30vh;
+  left: 103vw;
+  height: 4%;
+}
+
+.ice9 {
+  top: 11vh;
+  left: 151vw;
+  height: 1.5%;
+}
+
+.ice10 {
+  top: 76vh;
+  left: 182vw;
+  height: 8%;
+}
+
+.ice11 {
+  top: 25vh;
+  left: 293vw;
+  height: 4%;
+}
+
+.ice12 {
+  top: 16vh;
+  left: 200vw;
+  height: 2%;
+}
+
+.ice13 {
+  top: 76vh;
+  left: 213vw;
+  height: 8%;
+}
+
+.page1 {
+  z-index: 200;
+  top: 35vh;
+  left: 97vw;
+  height: 19px;
+}
+
+.page2 {
+  z-index: 200;
+  top: 38vh;
+  left: 97vw;
+  height: 19px;
+}
+
+.page3 {
+  z-index: 200;
+  top: 41vh;
+  left: 97vw;
+  height: 19px;
+}
